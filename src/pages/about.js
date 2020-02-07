@@ -4,6 +4,6 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <h1>About me</h1>
-    <p>I'm good enough, I'm smart enough, and gosh darn it, people like me!</p>
+    <p>I started my career as a dev ops engineer in New York City. </p>
   </Layout>
 )
