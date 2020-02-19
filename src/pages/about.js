@@ -8,9 +8,6 @@ import Img from "gatsby-image"
 
 export default ({ data }) => {
   const Button = styled.button`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding: 10px;
     background-color: #1ca086;
     font-size: 24px;
@@ -35,15 +32,7 @@ export default ({ data }) => {
         <li>I ride bikes through New York City</li>
         <li>Grow veggies</li>
       </ul>
-      <h2
-        css={css`
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-        `}
-      >
-        Contact
-      </h2>
+      <h2>Contact</h2>
       <Formik
         initialValues={{ firstName: "", lastName: "", email: "" }}
         validationSchema={Yup.object({
