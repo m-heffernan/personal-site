@@ -1,7 +1,6 @@
 import React from "react"
 import { Formik, Field, Form, ErrorMessage } from "formik"
 import * as Yup from "yup"
-import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
